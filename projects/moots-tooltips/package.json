@@ -1,0 +1,23 @@
+{
+  "name": "moots-tooltips",
+  "version": "0.0.6",
+  "peerDependencies": {
+    "@angular/common": "^14.1.0",
+    "@angular/core": "^14.1.0",
+    "arrows-svg": "^1.5.6",
+    "@floating-ui/dom": "^1.0.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "description": "This is a tooltip library for Angular 14",
+  "author": {
+    "name": "Kay Yuan",
+    "url": "https://github.com/Kay-Yuan"
+  },
+  "keywords": [
+    "angular",
+    "tooltip"
+  ],
+  "license": "MIT"
+}
