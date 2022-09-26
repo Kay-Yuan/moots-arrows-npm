@@ -1,7 +1,6 @@
 {
   "name": "moots-tooltips",
   "version": "0.0.10",
-  "type": "module",
   "peerDependencies": {
     "@angular/common": "^14.1.0",
     "@angular/core": "^14.1.0",
