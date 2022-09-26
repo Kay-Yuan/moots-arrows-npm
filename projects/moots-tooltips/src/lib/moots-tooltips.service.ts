@@ -7,8 +7,7 @@ import {
   shift,
 } from '@floating-ui/dom';
 import { ArrowsService } from './arrows.service';
-import { DIRECTION } from 'arrows-svg';
-import { IArrow } from './arrows-type';
+import { DIRECTION, IArrow } from 'arrows-svg';
 
 interface TooltipData {
   parent: HTMLElement;
@@ -173,3 +172,5 @@ export class MootsTooltipsService {
     this.tooltips.clear();
   }
 }
+
+// export const TOOLTIPS_SERVICE = new InjectionToken('MootsTooltipsService');

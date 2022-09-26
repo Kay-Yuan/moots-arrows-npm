@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import arrowCreate, { DIRECTION, HEAD } from 'arrows-svg';
-import { IArrow } from './arrows-type';
+
+import arrowCreate, { DIRECTION, HEAD, IArrow } from 'arrows-svg';
 
 type TranslationArray = { a: number; b: number; c: number; d: number };
 @Injectable({
@@ -72,7 +72,7 @@ export class ArrowsService {
       throw new Error('Invalid arrow direction');
     }
 
-    return arrowCreate({
+    return arrowCreate.default({
       className: 'arrow-test',
       from: {
         direction: arrowStart,
